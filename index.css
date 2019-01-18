@@ -1,0 +1,158 @@
+body {
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+div {
+    display: block;
+}
+
+#nav {
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.gb_fg {
+    position: absolute;
+    /* top: -295px; */
+    right: 0;
+    width: 100%;
+}
+
+#left-nav {
+    position: absolute;
+    margin: 7px 0 0 10px;
+}
+
+#right-nav {
+    text-align: right;
+    margin: 0 5% 0 10px;
+}
+
+#right-nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: #222
+}
+
+#left-nav a {
+   margin-left: 12px;
+   text-decoration: none;
+   color: #222
+}
+
+.content {
+    padding-bottom: 35px;
+}
+
+.center {
+    display: block;
+    text-align: -webkit-center;
+}
+
+.center img {
+    padding-top: 190px;
+}
+
+.search-area {
+    margin-left: 112.5px;
+    margin-right: 112.5px;
+}
+
+.search-arena {
+    display: flex;
+    flex-basis: 0%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding-left: 16px;
+    padding-right: 8px;
+    padding-top: 5px;
+}
+
+#search-box {
+    margin-left: 25%;
+    margin-top: 13px;
+    padding: 0;
+    /* flex: 25px; */
+    height: 34px;
+    width: 50%;
+    background-color: transparent;
+}
+
+.mic {
+    background: url(//www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) 0 0 no-repeat;
+    height: 24px;
+    width: 24px;
+    background-size: 24px;
+    vertical-align: middle;
+}
+
+button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    height: 36px;
+    line-height: 26px;
+}
+
+.footer_bar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #f2f2f2;
+    height: 35px;
+}
+
+#footer-left {
+    position: absolute;
+    margin: 7px 0 0 10px;
+}
+
+#footer-right {
+    margin: 7px 0 0 10px;
+    text-align: right;
+}
+
+#footer-left a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #5f6368;
+    padding-left: 27px;
+}
+
+#footer-right a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #5f6368;
+    padding-right: 27px;
+}
+
+#box-image img {
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 20px;
+    width: 20px;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
